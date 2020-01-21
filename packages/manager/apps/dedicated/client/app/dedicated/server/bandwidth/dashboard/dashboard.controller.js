@@ -6,6 +6,6 @@ export default class {
   }
 
   hasBandwidthOption() {
-    return this.coreConfig.isRegion(['EU', 'CA']);
+    return this.coreConfig.isRegion(['EU', 'CA', 'US']);
   }
 }

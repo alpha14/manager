@@ -23,7 +23,7 @@ angular.module('App').config(($stateProvider) => {
         DedicatedServerInterfacesService,
       ) => DedicatedServerInterfacesService.getInterfaces(serverName),
       isOlaAvailable: /* @ngInject */ (coreConfig) =>
-        coreConfig.isRegion(['EU', 'CA']),
+        coreConfig.isRegion(['EU', 'CA', 'US']),
       ola: /* @ngInject */ (
         interfaces,
         isOlaAvailable,
