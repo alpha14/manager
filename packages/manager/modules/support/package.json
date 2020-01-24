@@ -11,7 +11,7 @@
   "license": "BSD-3-Clause",
   "main": "./src/index.js",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0"
   },
@@ -25,6 +25,7 @@
     "angular-sanitize": "^1.7.8",
     "angular-translate": "^2.18.1",
     "font-awesome": "~4.7.0",
+    "jquery": "^3.4.1",
     "oclazyload": "^1.1.0",
     "ovh-api-services": "^9.27.1",
     "ovh-ui-angular": "^3.11.0",
