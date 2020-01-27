@@ -8,11 +8,7 @@
             'text-danger'  : log.message.status > 499
         }"
     >
-        <span
-            data-ng-bind="log.message.source"
-            title="ip_source"
-            class="col-md-1"
-        ></span>
+        <span data-ng-bind="log.message.source" title="ip_source"></span>
         <span title="ident">-</span>
         <span data-ng-bind="log.message.user" title="user"></span>
         [<span

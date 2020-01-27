@@ -75,7 +75,7 @@ export const NETWORKS_CONFIG = {
           regions: ['EU'],
         },
       ],
-      state: 'app.networks.cdn.dedicated',
+      state: 'app.networks.cdn.dedicated.manage',
       stateParams: ['productId'],
       icon: 'ovh-font ovh-font-cdn',
       app: [DEDICATED],

@@ -1,6 +1,7 @@
 angular.module('App').config(($stateProvider) => {
   $stateProvider.state('app.networks.cdn.dedicated.domain', {
     url: '/domain/:domain',
+    redirectTo: 'app.networks.cdn.dedicated.domain.statistics',
     views: {
       cdnMainView: {
         templateUrl: 'cdn/dedicated/domain/cdn-dedicated-domain.html',
@@ -14,6 +15,6 @@ angular.module('App').config(($stateProvider) => {
         controllerAs: '$ctrl',
       },
     },
-    reloadOnSearch: false,
+    translations: { value: ['.'], format: 'json' },
   });
 });
